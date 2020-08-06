@@ -15,6 +15,11 @@ python manage.py runserver
 
 /blog/ -> home.html
 
+
+
+
+
+
 #github create
 echo "# DjangoWebSiteTest" >> README.md
 git init
@@ -36,3 +41,11 @@ db.sqlite3
 git add .
 git commit -m "add new elements"
 git push
+
+
+#pythonanywhere
+pip3.6 install --user pythonanywhere
+
+
+    #prepare the list of libs from django app (venv)
+    pip freeze > requirements.txt
