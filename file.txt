@@ -58,8 +58,3 @@ pip3.6 install --user pythonanywhere
 
 pa_autoconfigure_django.py https://github.com/kirigaikabuto/DjangoWebSiteTest.git
 
-
-#если повторно загружать проект
-
-pa_autoconfigure_django.py --nuke https://github.com/kirigaikabuto/DjangoWebSiteTest.git
-
